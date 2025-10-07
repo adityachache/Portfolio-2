@@ -17,7 +17,7 @@
     "strict": true,
     "noEmit": true,
     "types": ["vite/client"],
-    "ignoreDeprecations": "6.0"
+    // "ignoreDeprecations": "6.0"
   },
   "include": ["src", "components", "vite-env.d.ts"]
 }
