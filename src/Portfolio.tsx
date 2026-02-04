@@ -115,16 +115,45 @@ const projects = [
 
 const experience = [
   {
+    company: "Compass Group",
+    role: "Operations Associate (On-Campus)",
+    period: "Aug 2025 – Present",
+    logo: "/img/compass-group-logo.png",
+    bullets: [
+      "Supported daily operations, including inventory control, restocking, receiving deliveries, and maintaining stock accuracy.",
+      "Coordinated with team members to ensure timely availability of supplies and smooth service operations.",
+      "Monitored inventory levels, identified shortages, and assisted with replenishment to avoid service disruptions."
+    ],
+  },
+  {
+    company: "Nidaan Systems Inc.",
+    role: "Solutions Analyst Intern",
+    period: "Sep 2025 – Jan 2026",
+    logo: "/img/Nidaan_logo.png",
+    bullets: [
+      "Supported client’s migration from on-premise systems to Intapp Cloud CDS by building Boomi integrations to transfer data from Salesforce CRM, streamlining their cloud adoption processs.",
+      "Developed and maintained ETL workflows in Boomi according to Intapp’s integration builder rules to sync data across external systems and Intapp’s Common Data Store (CDS), ensuring data consistency and integrity.",
+    ],
+  },
+  {
+    company: "Lonza",
+    role: "Business Analyst Intern (Quality Control)",
+    period: "May 2025 – Aug 2025",
+    logo: "/img/Lonza_logo.png",
+    bullets: [
+      "Worked with the QC team to extract and integrate data from SAP and LIMS into a Power BI model to forecast raw material quantities. Used the forecast to optimally assign QC Analysts for testing based on capacity, improving resource utilization and planning efficiency by 15%.",
+    ],
+  },
+  {
     company: "Jio Platforms Limited",
     role: "Software Engineer",
     period: "Sep 2022 – Jun 2024",
     logo: "/img/Jio_Logo.png",
     bullets: [
-      "Developed RESTful APIs to migrate Enterprise Product Catalog from Ericsson Conceptwave, enhancing flexibility and cutting costs by 20%.",
-      "Optimized deployment processes by developing dynamic IP and Port configuration, reducing deployment time by 20%.",
-      "Built an ETL pipeline moving SQL → MongoDB using Apache NiFi, improving scalability and reducing query time by 15%.",
-      "Managed timelines and improved productivity by ~10% using Azure Boards for tracking and task management.",
-      "Leveraged Tableau to analyze stock data, generating insights to optimize inventory and prevent imbalances.",
+      "Developed RESTful APIs to migrate the Enterprise Product Catalog from a monolithic to a scalable microservices architecture using open-source technologies, reducing vendor dependency and cutting integration costs by 20%.",
+      "Automated and optimized deployment configurations by implementing dynamic IP and port management, resulting in a 20% reduction in deployment time and fewer post-deployment issues.",
+      "Wrote complex SQL scripts to support data migration from relational databases to MongoDB via Apache NiFi, improving data accessibility and query performance by 15%.",
+      "Streamlined project tracking and deployment through Microsoft Azure Boards, managing task assignments, bug tracking, and release readiness, enhancing delivery efficiency by 10%.",
     ],
   },
 ];
