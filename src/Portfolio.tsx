@@ -373,7 +373,7 @@ export default function PortfolioIOS() {
             </a>
             <span>•</span>
             <a
-              href="public/Aditya_Resume_Word.pdf"
+              href="/Aditya_Resume_Word.pdf"
               target="_blank"
               rel="noreferrer"
               className="hover:text-slate-900 dark:text-white transition flex items-center gap-1"
