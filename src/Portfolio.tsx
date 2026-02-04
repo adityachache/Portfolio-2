@@ -399,26 +399,21 @@ export default function PortfolioIOS() {
       <section id="about" className="mx-auto max-w-6xl px-4 py-16">
         <SectionTitle subtitle="About">Hello there! 👋</SectionTitle>
         <Glass className="p-6 sm:p-8 leading-relaxed">
-          <p className="text-slate-700 dark:text-white/90">
-            I'm Aditya, a Business Analytics grad student at{" "}
+          {/* <p className="text-slate-700 dark:text-white/90">
+            I'm Aditya, a Business Analytics grad student from{" "}
             <span className="font-medium">
               California State University, East Bay
             </span>{" "}
-            and ex <span className="font-medium">Software Developer</span> at
-            Jio Platforms Limited.
+          </p> */}
+          <p className="mt-3 text-slate-600 dark:text-white/80">
+          I’m a Business Analytics graduate student with over two years of experience working at the intersection of data, 
+          systems, and operations. I’ve supported enterprise and departmental teams by improving planning, streamlining workflows, 
+          and turning complex data into actionable insights. My background spans analytics, capacity forecasting, system migrations, 
+          and operations support, and I enjoy working with cross-functional teams to solve practical business problems. 
+          I’m currently seeking full-time opportunities where I can apply analytics to improve decision-making, efficiency, and outcomes.
           </p>
           <p className="mt-3 text-slate-600 dark:text-white/80">
-            I’m pursuing a career in business/data analytics. I hold a B.E. in
-            Computer Engineering (University of Mumbai), and at Jio I worked on
-            two enterprise migrations—Enterprise Product Catalog and
-            Plan-to-Build Order Care. Early on I collaborated closely with UI/UX
-            and backend teams, and later contributed to data migration from SQL
-            to MongoDB using Apache NiFi (ETL).
-          </p>
-          <p className="mt-3 text-slate-600 dark:text-white/80">
-            On campus, I participate in tech & entrepreneurship clubs like
-            UpClub—attending events and sharpening communication and
-            interpersonal skills.
+            I'm also currently working as an operations associate on my campus at CSUEB.
           </p>
           <p className="mt-3 text-slate-600 dark:text-white/80">
             In my free time I enjoy photography, working out, traveling, PC
