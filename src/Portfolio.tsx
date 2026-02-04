@@ -32,6 +32,17 @@ const socials = [
 
 const projects = [
   {
+    title: "Tableau Public Profile",
+    blurb: "Data visualizations on Tableau Public.",
+    image: "/img/tableau-public.png",
+    links: [
+      {
+        label: "Profile",
+        href: "https://public.tableau.com/app/profile/aditya.chache/vizzes",
+      },
+    ],
+  },
+  {
     title: "Object Tracker",
     blurb: "Real-time object detection and count tracking using YOLOv5.",
     image: "/img/objtracker.png",
