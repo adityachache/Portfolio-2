@@ -43,6 +43,21 @@ const projects = [
     ],
   },
   {
+    title: "NYC Taxi Ridership Forecasting",
+    blurb: "An interactive time series forecasting dashboard to model and evaluate hourly NYC taxi ridership",
+    image: "/img/nyc_taxi.png",
+    links: [
+      {
+        label: "Code",
+        href: "https://github.com/adityachache/nyc-taxi-demand-dashboard",
+      },
+      {
+        label: "Implementation",
+        href: "https://nyc-taxi-demand-dashboard-gvx6tek8vtuydixrvzavmm.streamlit.app/",
+      },
+    ],
+  },
+  {
     title: "Object Tracker",
     blurb: "Real-time object detection and count tracking using YOLOv5.",
     image: "/img/objtracker.png",
