@@ -43,6 +43,21 @@ const projects = [
     ],
   },
   {
+    title: "NYC Route Delay Predictor",
+    blurb: "NYC bus delay predictor that tells commuters not just how late their bus will be, but why — combining real MTA open data, XGBoost, SHAP feature attribution, and Google Gemini to make ML predictions actually understandable.",
+    image: "/img/nyc_route_delay.png",
+    links: [
+      {
+        label: "Code",
+        href: "https://github.com/adityachache/NYC-route-delay-predictor",
+      },
+      {
+        label: "Implementation",
+        href: "https://nyc-route-delay-predictor-68kporczdugmteifqy4rff.streamlit.app/",
+      },
+    ],
+  },
+  {
     title: "NYC Taxi Ridership Forecasting",
     blurb: "An interactive time series forecasting dashboard to model and evaluate hourly NYC taxi ridership",
     image: "/img/nyc_taxi.png",
