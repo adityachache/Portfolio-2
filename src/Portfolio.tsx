@@ -45,7 +45,7 @@ const projects = [
   {
     title: "NYC Route Delay Predictor",
     blurb: "NYC bus delay predictor that tells commuters not just how late their bus will be, but why — combining real MTA open data, XGBoost, SHAP feature attribution, and Google Gemini to make ML predictions actually understandable.",
-    image: "/img/nyc_route_delay.png",
+    image: "/img/route_delay.png",
     links: [
       {
         label: "Code",
@@ -54,6 +54,21 @@ const projects = [
       {
         label: "Implementation",
         href: "https://nyc-route-delay-predictor-68kporczdugmteifqy4rff.streamlit.app/",
+      },
+    ],
+  },
+  {
+    title: "Statlabs",
+    blurb: "Interactive DS/ML learning platform with 6 concept sandboxes (normal distribution, CLT, hypothesis testing, gradient descent, and more)",
+    image: "/img/statlab.png",
+    links: [
+      {
+        label: "Code",
+        href: "https://github.com/adityachache/statlabs",
+      },
+      {
+        label: "Implementation",
+        href: "https://statlab-three.vercel.app/",
       },
     ],
   },
